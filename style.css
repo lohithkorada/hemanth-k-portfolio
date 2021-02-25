@@ -1,0 +1,81 @@
+html,body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.d-block {
+  width: 100%;
+  height: 600px;
+  display: flex;
+
+}
+.About{
+  margin-bottom: -30px;
+}
+
+.w3-circle {
+  height: 300px;
+  padding: 20px;
+  margin-top: -450px;
+  margin-left: 150px;
+}
+
+.carousel-caption {
+  margin-left: 45%;
+  margin-bottom: 8%;
+  padding: 2px;
+  width: 30%;
+} 
+
+
+
+.cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  
+  float: left;
+  width: 30%;
+  line-height: 1.em;
+  padding: 30px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 120px;
+  display: flex;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.card-body {
+  width: 100%;
+}
+
+.footer {
+  margin-top: -30px;
+  left: 0px;
+  color: #999;
+  position: absolute;
+  padding-top: 30px;
+  width: 100%;
+  height: 250px;
+  background-color: #292c2f
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+.contact{
+  margin-right: 4px ;
+}
+ .house{
+   margin-left: 20px ;
+
+ }
+ 
